@@ -30,12 +30,8 @@ body {
   border-radius: 5px 5px 50px 50px;
 }
 
-.myList {
+li a {
   text-decoration: none;
-}
-
-.myList li {
-  list-style-type: none;
 }
 
 .myList li a {
@@ -83,6 +79,14 @@ ul {
   font-size: 21px;
 }
 
-li a {
-  text-decoration: none;
+.socialMediaLinks {
+  margin-top: 3em;
+}
+
+.socialMediaLinks li a {
+  color: var(--lighter-yellow);
+  font-size: 24px;
+  border: solid 2px var(--lighter-yellow);
+  border-radius: 50px;
+  padding: 12px 82px;
 }
